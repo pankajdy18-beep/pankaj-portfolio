@@ -1,0 +1,564 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Pankaj Yadav home" [ref=e6] [cursor=pointer]:
+        - /url: "#home"
+        - generic [ref=e7]: PY
+        - generic [ref=e8]: Pankaj Yadav
+      - navigation "Main navigation" [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: "#home"
+        - link "Impact" [ref=e11] [cursor=pointer]:
+          - /url: "#impact"
+        - link "About" [ref=e12] [cursor=pointer]:
+          - /url: "#about"
+        - link "Skills" [ref=e13] [cursor=pointer]:
+          - /url: "#skills"
+        - link "Experience" [ref=e14] [cursor=pointer]:
+          - /url: "#projects"
+        - link "Architecture" [ref=e15] [cursor=pointer]:
+          - /url: "#architecture"
+        - link "Career" [ref=e16] [cursor=pointer]:
+          - /url: "#experience"
+        - link "Contact" [ref=e17] [cursor=pointer]:
+          - /url: "#contact"
+        - link "Resume" [ref=e18] [cursor=pointer]:
+          - /url: /Pankaj-Yadav-Resume.pdf
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: Open to Opportunities | Immediate Joiner
+        - heading "Engineering Quality. Automating Confidence." [level=1] [ref=e27]:
+          - generic [ref=e28]: Engineering Quality.
+          - generic [ref=e29]: Automating Confidence.
+        - heading "Pankaj Yadav SDET & QA Automation Engineer" [level=2] [ref=e30]: Pankaj Yadav | SDET & QA Automation Engineer
+        - paragraph [ref=e31]: 6 years of experience building scalable automation frameworks, validating critical business workflows, and strengthening software quality across Banking, CRM, Trading, HRMS, and E-commerce.
+        - generic [ref=e32]:
+          - link "Explore My Work" [ref=e33] [cursor=pointer]:
+            - /url: "#projects"
+          - link "Download Resume" [ref=e36] [cursor=pointer]:
+            - /url: /Pankaj-Yadav-Resume.pdf
+          - link "Contact Me" [ref=e40] [cursor=pointer]:
+            - /url: "#contact"
+        - generic "Selected documented experience" [ref=e43]:
+          - generic [ref=e44]:
+            - strong [ref=e45]: 6 years
+            - generic [ref=e46]: Quality engineering
+          - generic [ref=e47]:
+            - strong [ref=e48]: 150+ cases
+            - generic [ref=e49]: CRM UI & API automation
+          - generic [ref=e50]:
+            - strong [ref=e51]: ~70%
+            - generic [ref=e52]: Banking automation coverage
+        - generic "Core technology stack" [ref=e53]:
+          - generic [ref=e54]: Core stack
+          - generic [ref=e55]: Selenium
+          - generic [ref=e56]: Java
+          - generic [ref=e57]: Playwright
+          - generic [ref=e58]: REST Assured
+          - generic [ref=e59]: SQL
+          - generic [ref=e60]: Jenkins
+        - generic [ref=e61]:
+          - link "Connect on LinkedIn" [ref=e62] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/pankajyadav-554748244
+          - link "pankajdy786@gmail.com" [ref=e67] [cursor=pointer]:
+            - /url: mailto:pankajdy786@gmail.com
+          - link "+91 97730 50367" [ref=e71] [cursor=pointer]:
+            - /url: tel:+919773050367
+          - generic [ref=e74]: Noida, Uttar Pradesh, India
+      - generic "Technical automation workflow illustration" [ref=e78]:
+        - img "Automation workflow illustration A modern software test automation architecture with test cases, APIs, CI/CD, and quality checks." [ref=e79]:
+          - generic [ref=e81]:
+            - generic [ref=e83]: Test Cases
+            - generic [ref=e84]: Login
+            - generic [ref=e85]: checkout
+          - generic [ref=e86]:
+            - generic [ref=e88]: Runner
+            - generic [ref=e89]: Selenium
+            - generic [ref=e90]: Playwright
+          - generic [ref=e91]:
+            - generic [ref=e93]: Page Objects
+            - generic [ref=e94]: API Clients
+            - generic [ref=e95]: Utilities
+          - generic [ref=e96]:
+            - generic [ref=e98]: SQL / DB
+            - generic [ref=e99]: Validation
+          - generic [ref=e100]:
+            - generic [ref=e102]: Assertions
+            - generic [ref=e103]: Reporting
+          - generic [ref=e104]:
+            - generic [ref=e106]: CI/CD
+            - generic [ref=e107]: Jenkins
+          - generic [ref=e113]:
+            - generic [ref=e115]: Quality Signal
+            - generic [ref=e116]: Regression · Stability · Release Confidence
+    - generic [ref=e118]:
+      - generic [ref=e119]:
+        - generic [ref=e120]: 6+
+        - generic [ref=e121]: Years of experience
+        - paragraph [ref=e122]: Quality engineering across web, API, and release validation.
+      - generic [ref=e123]:
+        - generic [ref=e124]: 150+
+        - generic [ref=e125]: Automated UI/API cases
+        - paragraph [ref=e126]: CRM project automation coverage at scale.
+      - generic [ref=e127]:
+        - generic [ref=e128]: 70%
+        - generic [ref=e129]: Automation coverage
+        - paragraph [ref=e130]: Approximate coverage reported for the banking project.
+      - generic [ref=e131]:
+        - generic [ref=e132]: 5+
+        - generic [ref=e133]: Testing domains
+        - paragraph [ref=e134]: Banking, CRM, HRMS, trading, and e-commerce.
+    - generic [ref=e136]:
+      - generic [ref=e137]:
+        - generic [ref=e138]: About me
+        - heading "Quality engineering with a practical, outcome-focused mindset." [level=3] [ref=e139]
+      - generic [ref=e140]:
+        - paragraph [ref=e141]: I’m a Senior SDET with 6 years of experience across manual testing, automation engineering, API validation, and database-backed verification. My work focuses on building reliable test frameworks that help teams release with confidence while reducing regression effort.
+        - paragraph [ref=e142]: I have worked with web applications, enterprise platforms, banking workflows, CRM systems, and analytics-driven products. I design reusable automation assets, validate backend behavior through SQL and API checks, and support faster release cycles with structured defect triage, root cause analysis, and CI/CD integration.
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - generic [ref=e146]: Technical expertise
+        - heading "Hands-on testing and automation across the release lifecycle." [level=3] [ref=e147]
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - heading "UI Automation" [level=4] [ref=e155]
+          - list [ref=e156]:
+            - listitem [ref=e157]: Selenium WebDriver
+            - listitem [ref=e158]: Playwright
+            - listitem [ref=e159]: Java
+            - listitem [ref=e160]: JavaScript
+            - listitem [ref=e161]: TypeScript
+        - generic [ref=e162]:
+          - heading "Frameworks" [level=4] [ref=e168]
+          - list [ref=e169]:
+            - listitem [ref=e170]: TestNG
+            - listitem [ref=e171]: Cucumber
+            - listitem [ref=e172]: Maven
+            - listitem [ref=e173]: Page Object Model
+            - listitem [ref=e174]: Hybrid Automation Frameworks
+        - generic [ref=e175]:
+          - heading "API and Backend Testing" [level=4] [ref=e181]
+          - list [ref=e182]:
+            - listitem [ref=e183]: REST Assured
+            - listitem [ref=e184]: Postman
+            - listitem [ref=e185]: REST APIs
+            - listitem [ref=e186]: SQL
+            - listitem [ref=e187]: MySQL
+            - listitem [ref=e188]: Backend validation
+        - generic [ref=e189]:
+          - heading "CI/CD and Collaboration" [level=4] [ref=e195]
+          - list [ref=e196]:
+            - listitem [ref=e197]: Jenkins
+            - listitem [ref=e198]: Git
+            - listitem [ref=e199]: GitHub
+            - listitem [ref=e200]: Agile/Scrum
+            - listitem [ref=e201]: Jira
+        - generic [ref=e202]:
+          - heading "Quality Engineering" [level=4] [ref=e207]
+          - list [ref=e208]:
+            - listitem [ref=e209]: Functional testing
+            - listitem [ref=e210]: Regression testing
+            - listitem [ref=e211]: Integration testing
+            - listitem [ref=e212]: Defect triage
+            - listitem [ref=e213]: Root cause analysis
+            - listitem [ref=e214]: Release validation
+        - generic [ref=e215]:
+          - heading "Data and Performance" [level=4] [ref=e221]
+          - list [ref=e222]:
+            - listitem [ref=e223]: SQL validation
+            - listitem [ref=e224]: Transactional data checks
+            - listitem [ref=e225]: JMeter
+            - listitem [ref=e226]: Backend verification
+    - generic [ref=e228]:
+      - generic [ref=e229]:
+        - generic [ref=e230]: Experience & Engineering Impact
+        - 'heading "Six case studies: documented work, supported outcomes, and clearly labeled illustrative designs." [level=3] [ref=e231]'
+      - generic [ref=e232]:
+        - article [ref=e233]:
+          - generic [ref=e234]:
+            - generic [ref=e235]: "01"
+            - generic [ref=e236]: March 2026 – October 2026
+          - generic [ref=e237]:
+            - generic [ref=e238]:
+              - paragraph [ref=e239]: Acuity Analytics
+              - heading "Banking Automation Platform" [level=4] [ref=e240]
+            - generic [ref=e241]: Banking / FinTech
+          - paragraph [ref=e242]: Software Engineer in Test · Banking platform for a US client
+          - paragraph [ref=e243]: Repeatable UI, API, and data checks provide an evidence-based view of release readiness without overstating defect or time savings.
+          - generic [ref=e244]:
+            - generic [ref=e245]: Playwright (Java)
+            - generic [ref=e246]: TestNG
+            - generic [ref=e247]: Cucumber
+            - generic [ref=e248]: Jenkins
+            - generic [ref=e249]: MySQL
+          - button "Close case study" [expanded] [ref=e250] [cursor=pointer]
+          - generic [ref=e253]:
+            - generic [ref=e254]:
+              - generic [ref=e255]:
+                - generic [ref=e256]: Role & dates
+                - paragraph [ref=e257]: Software Engineer in Test · March 2026 – October 2026
+              - generic [ref=e258]:
+                - generic [ref=e259]: Project & industry
+                - paragraph [ref=e260]: Banking platform for a US client · Banking / FinTech
+            - generic [ref=e261]:
+              - generic [ref=e262]: Engineering challenge
+              - paragraph [ref=e263]: "Representative engineering challenge: banking workflows need dependable regression coverage for critical business operations and confidence that application behavior agrees with backend transaction data. This describes the testing context, not a confirmed production incident."
+            - generic [ref=e264]:
+              - generic [ref=e265]:
+                - heading "Documented contributions" [level=5] [ref=e266]
+                - list [ref=e267]:
+                  - listitem [ref=e268]: Designed a hybrid automation framework from scratch and created reusable automation components.
+                  - listitem [ref=e272]: Automated critical banking UI and API scenarios.
+                  - listitem [ref=e276]: Validated backend data with SQL.
+                  - listitem [ref=e280]: Integrated regression suites into Jenkins for scheduled execution and reporting.
+              - generic [ref=e284]:
+                - heading "Resume-supported impact" [level=5] [ref=e285]
+                - list [ref=e286]:
+                  - listitem [ref=e287]: Approximately 70% automation coverage, as reported in the resume.
+                  - listitem [ref=e291]: Reusable components supported maintainability.
+                  - listitem [ref=e295]: Scheduled regression execution and centralized reporting through Jenkins.
+                  - listitem [ref=e299]: Backend validation supported release confidence.
+            - generic [ref=e303]:
+              - generic [ref=e304]: Business value
+              - paragraph [ref=e305]: Repeatable UI, API, and data checks provide an evidence-based view of release readiness without overstating defect or time savings.
+            - generic [ref=e306]:
+              - generic [ref=e307]:
+                - generic [ref=e308]:
+                  - generic [ref=e309]: Explore the Automation Framework
+                  - heading "Illustrative framework design" [level=5] [ref=e310]
+                - generic [ref=e311]: Not a verified proprietary diagram
+              - paragraph [ref=e312]: Illustrative framework design based on the documented technology stack. It is not a verified internal architecture. Exact API client, reporting library, folder structure, and Cucumber–TestNG integration details should be confirmed.
+              - generic [ref=e314]:
+                - heading "Illustrative execution flow" [level=6] [ref=e315]
+                - list [ref=e316]:
+                  - listitem [ref=e317]:
+                    - button "Feature files / test scenarios Illustrative layer" [pressed] [ref=e318] [cursor=pointer]:
+                      - generic [ref=e319]: Feature files / test scenarios
+                      - generic [ref=e320]: Illustrative layer
+                  - listitem [ref=e321]:
+                    - button "Cucumber BDD layer Illustrative layer" [ref=e322] [cursor=pointer]:
+                      - generic [ref=e323]: Cucumber BDD layer
+                      - generic [ref=e324]: Illustrative layer
+                  - listitem [ref=e325]:
+                    - button "TestNG execution and configuration Illustrative layer" [ref=e326] [cursor=pointer]:
+                      - generic [ref=e327]: TestNG execution and configuration
+                      - generic [ref=e328]: Illustrative layer
+                  - listitem [ref=e329]:
+                    - button "Playwright automation layer Illustrative layer" [ref=e330] [cursor=pointer]:
+                      - generic [ref=e331]: Playwright automation layer
+                      - generic [ref=e332]: Illustrative layer
+                  - listitem [ref=e333]:
+                    - button "Reusable page objects and helpers Illustrative layer" [ref=e334] [cursor=pointer]:
+                      - generic [ref=e335]: Reusable page objects and helpers
+                      - generic [ref=e336]: Illustrative layer
+                  - listitem [ref=e337]:
+                    - button "Banking application UI / API interfaces Illustrative layer" [ref=e338] [cursor=pointer]:
+                      - generic [ref=e339]: Banking application UI / API interfaces
+                      - generic [ref=e340]: Illustrative layer
+                  - listitem [ref=e341]:
+                    - button "Assertions and MySQL validation Illustrative layer" [ref=e342] [cursor=pointer]:
+                      - generic [ref=e343]: Assertions and MySQL validation
+                      - generic [ref=e344]: Illustrative layer
+                  - listitem [ref=e345]:
+                    - button "Execution results and reporting Illustrative layer" [ref=e346] [cursor=pointer]:
+                      - generic [ref=e347]: Execution results and reporting
+                      - generic [ref=e348]: Illustrative layer
+                  - listitem [ref=e349]:
+                    - button "Jenkins scheduled pipeline Illustrative layer" [ref=e350] [cursor=pointer]:
+                      - generic [ref=e351]: Jenkins scheduled pipeline
+                      - generic [ref=e352]: Illustrative layer
+              - generic [ref=e353]:
+                - text: Illustrative layer
+                - heading "Feature files / test scenarios" [level=6] [ref=e354]
+                - paragraph [ref=e355]: Express a business behavior and its expected outcome.
+              - generic [ref=e356]:
+                - heading "Example test execution flow" [level=6] [ref=e357]
+                - list [ref=e358]:
+                  - listitem [ref=e359]: Select a banking behavior from a feature or test scenario.
+                  - listitem [ref=e360]: Execute it through the configured Cucumber and TestNG layers.
+                  - listitem [ref=e361]: Use reusable Playwright components to exercise the application UI and API scenarios.
+                  - listitem [ref=e362]: Assert expected behavior and validate relevant backend data with SQL.
+                  - listitem [ref=e363]: Review execution output and reporting from the scheduled Jenkins regression run.
+              - paragraph [ref=e364]: The resume documents Playwright (Java), TestNG, Cucumber, Jenkins, and MySQL, but does not identify the API client or reporting library. The diagram describes conceptual responsibilities, not specific packages or integration mechanics.
+        - article [ref=e365]:
+          - generic [ref=e366]:
+            - generic [ref=e367]: "02"
+            - generic [ref=e368]: November 2025 – February 2026
+          - generic [ref=e369]:
+            - generic [ref=e370]:
+              - paragraph [ref=e371]: EagleDrift Technologies Pvt. Ltd.
+              - heading "CRM Automation Platform" [level=4] [ref=e372]
+            - generic [ref=e373]: CRM / Enterprise software
+          - paragraph [ref=e374]: Software Engineer in Test · CRM automation platform for a US client
+          - paragraph [ref=e375]: Separate UI, API, and data checks can validate CRM behaviors at appropriate layers while nightly execution provides a regular regression signal.
+          - generic [ref=e376]:
+            - generic [ref=e377]: Selenium (Java)
+            - generic [ref=e378]: TestNG
+            - generic [ref=e379]: REST Assured
+            - generic [ref=e380]: Jenkins
+            - generic [ref=e381]: MySQL
+          - button "Explore case study" [ref=e382] [cursor=pointer]
+        - article [ref=e385]:
+          - generic [ref=e386]:
+            - generic [ref=e387]: "03"
+            - generic [ref=e388]: July 2024 – October 2025
+          - generic [ref=e389]:
+            - generic [ref=e390]:
+              - paragraph [ref=e391]: Newgen Technomate
+              - heading "HRMS and Analytics" [level=4] [ref=e392]
+            - generic [ref=e393]: HRMS / Analytics
+          - paragraph [ref=e394]: Test Engineer · HRMS and analytics
+          - paragraph [ref=e395]: Complementary UI, API, performance, and SQL checks can help identify inconsistent analytics outputs and service behavior during sprint and release validation.
+          - generic [ref=e396]:
+            - generic [ref=e397]: Selenium
+            - generic [ref=e398]: Playwright
+            - generic [ref=e399]: REST Assured
+            - generic [ref=e400]: JMeter
+            - generic [ref=e401]: SQL
+          - button "Explore case study" [ref=e402] [cursor=pointer]
+        - article [ref=e405]:
+          - generic [ref=e406]:
+            - generic [ref=e407]: "04"
+            - generic [ref=e408]: August 2023 – June 2024
+          - generic [ref=e409]:
+            - generic [ref=e410]:
+              - paragraph [ref=e411]: Multi Commodity Exchange of India Ltd. (MCX)
+              - heading "Commodity Trading Exchange Platform" [level=4] [ref=e412]
+            - generic [ref=e413]: Commodity trading / Exchange systems
+          - paragraph [ref=e414]: Quality Assurance Executive · Commodity trading exchange platform
+          - paragraph [ref=e415]: Repeatable workflow checks and transaction verification contribute to controlled release validation. The zero-critical-defect statement is limited to the scope stated in the resume.
+          - generic [ref=e416]:
+            - generic [ref=e417]: Selenium
+            - generic [ref=e418]: TestNG
+            - generic [ref=e419]: REST APIs
+            - generic [ref=e420]: SQL
+          - button "Explore case study" [ref=e421] [cursor=pointer]
+        - article [ref=e424]:
+          - generic [ref=e425]:
+            - generic [ref=e426]: "05"
+            - generic [ref=e427]: December 2022 – June 2023
+          - generic [ref=e428]:
+            - generic [ref=e429]:
+              - paragraph [ref=e430]: Espire Infolabs
+              - heading "Web Application Quality Engineering" [level=4] [ref=e431]
+            - generic [ref=e432]: Web applications
+          - paragraph [ref=e433]: Test Engineer · Web application testing
+          - paragraph [ref=e434]: Structured test execution and defect records give the team reproducible evidence to triage issues and follow up with regression checks.
+          - generic [ref=e435]:
+            - generic [ref=e436]: Selenium WebDriver
+            - generic [ref=e437]: Java
+            - generic [ref=e438]: TestNG
+          - button "Explore case study" [ref=e439] [cursor=pointer]
+        - article [ref=e442]:
+          - generic [ref=e443]:
+            - generic [ref=e444]: "06"
+            - generic [ref=e445]: October 2020 – December 2022
+          - generic [ref=e446]:
+            - generic [ref=e447]:
+              - paragraph [ref=e448]: SM Web Solutions Pvt. Ltd.
+              - heading "E-commerce Platform" [level=4] [ref=e449]
+            - generic [ref=e450]: E-commerce / Retail
+          - paragraph [ref=e451]: Quality Assurance Tester · E-commerce platform
+          - paragraph [ref=e452]: Checking a business journey across the UI, API, and available database records helps verify consistent order and payment state without assuming payment gateway details.
+          - generic [ref=e453]:
+            - generic [ref=e454]: Selenium
+            - generic [ref=e455]: Postman
+            - generic [ref=e456]: SQL
+          - button "Explore case study" [ref=e457] [cursor=pointer]
+    - generic [ref=e461]:
+      - generic [ref=e462]:
+        - generic [ref=e463]:
+          - generic [ref=e464]: Automation architecture
+          - heading "Illustrative reference architecture for maintainable test systems." [level=3] [ref=e465]
+        - generic "Automation architecture diagram" [ref=e466]:
+          - img "Reference automation architecture An illustrative test architecture with test cases, runner, page objects, utilities, validation, and CI/CD." [ref=e467]:
+            - generic [ref=e468]: Test Cases
+            - generic [ref=e471]: Test Runner
+            - generic [ref=e474]:
+              - generic [ref=e476]: Page Objects
+              - generic [ref=e477]: API Clients
+            - generic [ref=e478]: Reusable Utilities
+            - generic [ref=e481]:
+              - generic [ref=e483]: Assertions
+              - generic [ref=e484]: Validation
+            - generic [ref=e485]: External Data
+            - generic [ref=e488]: SQL / DB
+            - generic [ref=e491]: Jenkins CI/CD
+      - generic [ref=e496]:
+        - paragraph [ref=e497]: This is an illustrative test architecture, not a verified diagram of a private employer setup. It reflects a maintainable QA model built around reusable components, data-driven execution, validation, and traceable reporting.
+        - list [ref=e498]:
+          - listitem [ref=e499]: Business workflows are separated into reusable page objects and API client abstractions.
+          - listitem [ref=e500]: External test data and SQL validation reduce flaky checks and improve defect isolation.
+          - listitem [ref=e501]: Jenkins integration supports scheduled regression execution and CI feedback loops.
+          - listitem [ref=e502]: Structured reporting makes debugging faster and enables better release confidence.
+    - generic [ref=e504]:
+      - generic [ref=e505]:
+        - generic [ref=e506]: QA engineering playground
+        - heading "Demonstration scenarios for common verification patterns." [level=3] [ref=e507]
+      - generic [ref=e508]:
+        - tablist "QA Playground scenarios" [ref=e509]:
+          - tab "Login" [selected] [ref=e510] [cursor=pointer]
+          - tab "Checkout" [ref=e511] [cursor=pointer]
+          - tab "Api" [ref=e512] [cursor=pointer]
+          - tab "Bugreport" [ref=e513] [cursor=pointer]
+        - generic [ref=e514]:
+          - button "Positive" [ref=e515] [cursor=pointer]
+          - button "Negative" [ref=e516] [cursor=pointer]
+        - generic [ref=e517]:
+          - generic [ref=e518]: Demonstration only
+          - heading "Successful login" [level=4] [ref=e519]
+          - paragraph [ref=e520]: User lands on the dashboard with valid session state and expected role-based menu items.
+          - list [ref=e521]:
+            - listitem [ref=e522]: Enter valid username and password
+            - listitem [ref=e523]: Submit authentication request
+            - listitem [ref=e524]: Confirm redirect to dashboard
+          - generic [ref=e525]: "Pass: Session created successfully and navigation loads as expected."
+    - generic [ref=e531]:
+      - generic [ref=e532]:
+        - generic [ref=e533]: Career timeline
+        - heading "Six employers, in resume-documented chronological order." [level=3] [ref=e534]
+      - generic [ref=e535]:
+        - article [ref=e536]:
+          - generic [ref=e538]:
+            - generic [ref=e539]:
+              - generic [ref=e540]:
+                - paragraph [ref=e541]: SM Web Solutions Pvt. Ltd.
+                - heading "Quality Assurance Tester" [level=4] [ref=e542]
+              - generic [ref=e543]: October 2020 – December 2022
+            - generic [ref=e544]: E-commerce Platform
+            - paragraph [ref=e549]: E-commerce platform
+            - generic [ref=e550]:
+              - generic [ref=e551]: Selenium
+              - generic [ref=e552]: Postman
+              - generic [ref=e553]: SQL
+            - list [ref=e554]:
+              - listitem [ref=e555]: Performed end-to-end functional and regression testing.
+              - listitem [ref=e556]: Automated critical checkout and payment workflows.
+              - listitem [ref=e557]: Executed API testing using Postman.
+        - article [ref=e558]:
+          - generic [ref=e560]:
+            - generic [ref=e561]:
+              - generic [ref=e562]:
+                - paragraph [ref=e563]: Espire Infolabs
+                - heading "Test Engineer" [level=4] [ref=e564]
+              - generic [ref=e565]: December 2022 – June 2023
+            - generic [ref=e566]:
+              - generic [ref=e567]: Web Application Quality Engineering
+              - generic [ref=e571]: Gurugram, Haryana, India
+            - paragraph [ref=e575]: Web application testing
+            - generic [ref=e576]:
+              - generic [ref=e577]: Selenium WebDriver
+              - generic [ref=e578]: Java
+              - generic [ref=e579]: TestNG
+            - list [ref=e580]:
+              - listitem [ref=e581]: Performed manual and automated testing of web applications.
+              - listitem [ref=e582]: Prepared and executed test cases.
+              - listitem [ref=e583]: Logged defects and collaborated within Agile teams.
+        - article [ref=e584]:
+          - generic [ref=e586]:
+            - generic [ref=e587]:
+              - generic [ref=e588]:
+                - paragraph [ref=e589]: Multi Commodity Exchange of India Ltd. (MCX)
+                - heading "Quality Assurance Executive" [level=4] [ref=e590]
+              - generic [ref=e591]: August 2023 – June 2024
+            - generic [ref=e592]: Commodity Trading Exchange Platform
+            - paragraph [ref=e597]: Commodity trading exchange platform
+            - generic [ref=e598]:
+              - generic [ref=e599]: Selenium
+              - generic [ref=e600]: TestNG
+              - generic [ref=e601]: REST APIs
+              - generic [ref=e602]: SQL
+            - list [ref=e603]:
+              - listitem [ref=e604]: Automated regression tests for trading workflows.
+              - listitem [ref=e605]: Validated financial transactions using SQL.
+              - listitem [ref=e606]: Supported sprint planning.
+        - article [ref=e607]:
+          - generic [ref=e609]:
+            - generic [ref=e610]:
+              - generic [ref=e611]:
+                - paragraph [ref=e612]: Newgen Technomate
+                - heading "Test Engineer" [level=4] [ref=e613]
+              - generic [ref=e614]: July 2024 – October 2025
+            - generic [ref=e615]: HRMS and Analytics
+            - paragraph [ref=e620]: HRMS and analytics
+            - generic [ref=e621]:
+              - generic [ref=e622]: Selenium
+              - generic [ref=e623]: Playwright
+              - generic [ref=e624]: REST Assured
+              - generic [ref=e625]: JMeter
+              - generic [ref=e626]: SQL
+            - list [ref=e627]:
+              - listitem [ref=e628]: Automated dashboard and reporting validations.
+              - listitem [ref=e629]: Developed API automation for analytics microservices.
+              - listitem [ref=e630]: Conducted API performance testing with JMeter.
+        - article [ref=e631]:
+          - generic [ref=e633]:
+            - generic [ref=e634]:
+              - generic [ref=e635]:
+                - paragraph [ref=e636]: EagleDrift Technologies Pvt. Ltd.
+                - heading "Software Engineer in Test" [level=4] [ref=e637]
+              - generic [ref=e638]: November 2025 – February 2026
+            - generic [ref=e639]: CRM Automation Platform
+            - paragraph [ref=e644]: CRM automation platform for a US client
+            - generic [ref=e645]:
+              - generic [ref=e646]: Selenium (Java)
+              - generic [ref=e647]: TestNG
+              - generic [ref=e648]: REST Assured
+              - generic [ref=e649]: Jenkins
+              - generic [ref=e650]: MySQL
+            - list [ref=e651]:
+              - listitem [ref=e652]: Built a scalable hybrid automation framework.
+              - listitem [ref=e653]: Automated more than 150 UI and API test cases.
+              - listitem [ref=e654]: Implemented nightly Jenkins regression execution.
+        - article [ref=e655]:
+          - generic [ref=e657]:
+            - generic [ref=e658]:
+              - generic [ref=e659]:
+                - paragraph [ref=e660]: Acuity Analytics
+                - heading "Software Engineer in Test" [level=4] [ref=e661]
+              - generic [ref=e662]: March 2026 – October 2026
+            - generic [ref=e663]: Banking Automation Platform
+            - paragraph [ref=e668]: Banking platform for a US client
+            - generic [ref=e669]:
+              - generic [ref=e670]: Playwright (Java)
+              - generic [ref=e671]: TestNG
+              - generic [ref=e672]: Cucumber
+              - generic [ref=e673]: Jenkins
+              - generic [ref=e674]: MySQL
+            - list [ref=e675]:
+              - listitem [ref=e676]: Designed a hybrid automation framework from scratch and created reusable automation components.
+              - listitem [ref=e677]: Automated critical banking UI and API scenarios.
+              - listitem [ref=e678]: Validated backend data with SQL.
+    - generic [ref=e680]:
+      - generic [ref=e681]:
+        - generic [ref=e682]: Education
+        - heading "Academic background and continuing learning." [level=3] [ref=e683]
+      - generic [ref=e684]:
+        - article [ref=e685]:
+          - text: July 2025
+          - heading "Master of Computer Applications (MCA)" [level=4] [ref=e686]
+          - paragraph [ref=e687]: Integral University, Lucknow
+        - article [ref=e688]:
+          - text: April 2018 – May 2021
+          - heading "Bachelor of Science in Information Technology" [level=4] [ref=e689]
+          - paragraph [ref=e690]: University of Mumbai
+  - contentinfo [ref=e691]:
+    - generic [ref=e692]:
+      - generic [ref=e693]:
+        - generic [ref=e694]: Let’s connect
+        - heading "Let's Build More Reliable Software." [level=3] [ref=e695]
+        - paragraph [ref=e696]: Looking for an SDET or QA Automation Engineer who combines structured testing, UI and API automation, and CI/CD practices? Let's connect.
+      - generic [ref=e697]:
+        - link "Send an email · pankajdy786@gmail.com" [ref=e698] [cursor=pointer]:
+          - /url: mailto:pankajdy786@gmail.com
+        - link "Call Pankaj · +91 97730 50367" [ref=e702] [cursor=pointer]:
+          - /url: tel:+919773050367
+        - link "View LinkedIn profile" [ref=e705] [cursor=pointer]:
+          - /url: https://www.linkedin.com/in/pankajyadav-554748244
+        - link "Download Resume" [ref=e710] [cursor=pointer]:
+          - /url: /Pankaj-Yadav-Resume.pdf
+        - generic [ref=e714]: Noida, Uttar Pradesh, India · Immediate Joiner
+    - generic [ref=e718]:
+      - generic [ref=e719]: © 2026 Pankaj Yadav
+      - generic [ref=e720]: Selenium · Playwright · REST Assured · SQL · Jenkins
