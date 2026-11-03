@@ -159,7 +159,7 @@ function App() {
               </div>
               <div className="hero-proof" aria-label="Selected documented experience">
                 <div>
-                  <strong>6 years</strong>
+                  <strong>6+ years</strong>
                   <span>Quality engineering</span>
                 </div>
                 <div>
@@ -186,9 +186,9 @@ function App() {
                   <Mail size={18} />
                   pankajdy786@gmail.com
                 </a>
-                <a href="tel:+919773050367">
+                <a href="tel:+917054698767">
                   <Phone size={18} />
-                  +91 97730 50367
+                  +91 7054698767
                 </a>
               </div>
             </div>
@@ -275,7 +275,7 @@ function App() {
             </div>
             <div className="about-copy">
               <p>
-                I’m a Senior SDET with 6 years of experience across manual testing, automation engineering,
+                I’m a Senior SDET with 6+ years of experience across manual testing, automation engineering,
                 API validation, and database-backed verification. My work focuses on building reliable test
                 frameworks that help teams release with confidence while reducing regression effort.
               </p>

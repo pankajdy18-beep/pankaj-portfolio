@@ -29,354 +29,774 @@ export type CaseStudy = {
   proposedStructure?: string[];
 };
 
-const layer = (name: string, responsibility: string): FrameworkLayer => ({
+const layer = (
+  name: string,
+  responsibility: string
+): FrameworkLayer => ({
   name,
   responsibility,
-  label: 'Illustrative layer',
+  label: "Illustrative layer",
 });
 
 export const caseStudies: CaseStudy[] = [
   {
-    title: 'Banking Automation Platform',
-    employer: 'Acuity Analytics',
-    period: 'March 2026 – October 2026',
-    role: 'Software Engineer in Test',
-    project: 'Banking platform for a US client',
-    industry: 'Banking / FinTech',
+    title: "Banking Automation Platform",
+    employer: "Acuity Analytics / Acuity Knowledge Services",
+    period: "March 2026 – November 2026",
+    role: "Senior Associate | SDET / QA Automation Engineer",
+    location: "Gurgaon, India",
+    project: "Banking Platform for a US Client",
+    industry: "Banking / FinTech",
+
     challenge:
-      'Representative engineering challenge: banking workflows need dependable regression coverage for critical business operations and confidence that application behavior agrees with backend transaction data. This describes the testing context, not a confirmed production incident.',
+      "Testing critical banking workflows across UI and API layers while maintaining reliable regression coverage, backend data validation, and release confidence.",
+
     solution: [
-      'Designed a hybrid automation framework from scratch and created reusable automation components.',
-      'Automated critical banking UI and API scenarios.',
-      'Validated backend data with SQL.',
-      'Integrated regression suites into Jenkins for scheduled execution and reporting.',
+      "Executed UI and API automation for banking workflows using Playwright, JavaScript/TypeScript, TestNG and Cucumber BDD.",
+      "Developed and maintained reusable automation components for repeatable and maintainable regression execution.",
+      "Integrated regression suites with Jenkins for scheduled execution and release validation.",
+      "Performed backend data validation using SQL.",
+      "Supported functional, regression, API and end-to-end testing.",
+      "Collaborated with developers during defect triage and root-cause analysis.",
+      "Used Git and GitHub for source control and automation code management.",
     ],
+
     impact: [
-      'Approximately 70% automation coverage, as reported in the resume.',
-      'Reusable components supported maintainability.',
-      'Scheduled regression execution and centralized reporting through Jenkins.',
-      'Backend validation supported release confidence.',
+      "Approximately 70% automation coverage, as documented in the resume.",
+      "Reusable automation components improved test maintainability.",
+      "Jenkins-based regression execution supported repeatable release validation.",
+      "Backend SQL validation provided additional confidence in transaction-related workflows.",
     ],
+
     businessValue:
-      'Repeatable UI, API, and data checks provide an evidence-based view of release readiness without overstating defect or time savings.',
-    technologies: ['Playwright (Java)', 'TestNG', 'Cucumber', 'Jenkins', 'MySQL'],
-    workflow: [
-      'Select a banking behavior from a feature or test scenario.',
-      'Execute it through the configured Cucumber and TestNG layers.',
-      'Use reusable Playwright components to exercise the application UI and API scenarios.',
-      'Assert expected behavior and validate relevant backend data with SQL.',
-      'Review execution output and reporting from the scheduled Jenkins regression run.',
+      "UI, API and database-level validation provides broader coverage of banking workflows and supports reliable regression and release-readiness decisions.",
+
+    technologies: [
+      "Playwright",
+      "JavaScript",
+      "TypeScript",
+      "TestNG",
+      "Cucumber BDD",
+      "API Testing",
+      "Jenkins",
+      "SQL",
+      "Git",
+      "GitHub",
     ],
+
+    workflow: [
+      "Analyze banking business scenarios and identify UI/API test coverage.",
+      "Create and maintain automated test scenarios using Playwright.",
+      "Use Cucumber BDD and TestNG for test organization and execution.",
+      "Validate API responses and application behavior.",
+      "Perform backend data validation using SQL.",
+      "Execute regression suites through Jenkins.",
+      "Review execution results and support defect triage.",
+    ],
+
     frameworkNote:
-      'Illustrative framework design based on the documented technology stack. It is not a verified internal architecture. Exact API client, reporting library, folder structure, and Cucumber–TestNG integration details should be confirmed.',
+      "The framework representation below describes the documented technology stack and responsibilities. It represents the testing approach rather than proprietary internal architecture.",
+
     implementationDetails:
-      'The resume documents Playwright (Java), TestNG, Cucumber, Jenkins, and MySQL, but does not identify the API client or reporting library. The diagram describes conceptual responsibilities, not specific packages or integration mechanics.',
+      "The documented stack includes Playwright, JavaScript/TypeScript, TestNG, Cucumber BDD, Jenkins, SQL, API testing, Git and GitHub. Exact internal framework packages and folder structure are not publicly documented.",
+
     frameworkLanes: [
       {
-        title: 'Illustrative execution flow',
+        title: "BDD & Test Execution Layer",
         layers: [
-          layer('Feature files / test scenarios', 'Express a business behavior and its expected outcome.'),
-          layer('Cucumber BDD layer', 'Maps readable scenarios to executable automation steps.'),
-          layer('TestNG execution and configuration', 'Organizes execution and test configuration; exact integration is to confirm.'),
-          layer('Playwright automation layer', 'Drives the documented Playwright (Java) UI automation.'),
-          layer('Reusable page objects and helpers', 'Illustrative abstractions for reusable interactions and test support.'),
-          layer('Banking application UI / API interfaces', 'Exercises documented critical UI and API scenarios; API client details are not specified.'),
-          layer('Assertions and MySQL validation', 'Checks behavior and performs documented SQL-backed validation.'),
-          layer('Execution results and reporting', 'Makes regression outcomes reviewable; reporting library is not specified.'),
-          layer('Jenkins scheduled pipeline', 'Triggers the documented scheduled regression execution.'),
+          layer(
+            "Feature Files / Test Scenarios",
+            "Describe banking business scenarios and expected outcomes."
+          ),
+          layer(
+            "Cucumber BDD",
+            "Organizes readable business scenarios and executable steps."
+          ),
+          layer(
+            "TestNG",
+            "Manages test execution and test configuration."
+          ),
+        ],
+      },
+      {
+        title: "UI & API Automation Layer",
+        layers: [
+          layer(
+            "Playwright Automation",
+            "Automates critical banking UI workflows."
+          ),
+          layer(
+            "API Testing",
+            "Validates API behavior and service responses."
+          ),
+          layer(
+            "Reusable Automation Components",
+            "Provides reusable utilities and maintainable automation components."
+          ),
+        ],
+      },
+      {
+        title: "Validation Layer",
+        layers: [
+          layer(
+            "UI Assertions",
+            "Validates expected application behavior."
+          ),
+          layer(
+            "API Assertions",
+            "Validates API responses and expected service behavior."
+          ),
+          layer(
+            "SQL Validation",
+            "Validates relevant backend transaction data."
+          ),
+        ],
+      },
+      {
+        title: "CI/CD Layer",
+        layers: [
+          layer(
+            "Jenkins Pipeline",
+            "Runs scheduled regression automation."
+          ),
+          layer(
+            "Execution Results",
+            "Reviews regression results and failures."
+          ),
+          layer(
+            "Git / GitHub",
+            "Manages automation source code and version control."
+          ),
         ],
       },
     ],
   },
+
   {
-    title: 'CRM Automation Platform',
-    employer: 'EagleDrift Technologies Pvt. Ltd.',
-    period: 'November 2025 – February 2026',
-    role: 'Software Engineer in Test',
-    project: 'CRM automation platform for a US client',
-    industry: 'CRM / Enterprise software',
+    title: "CRM Automation Platform",
+    employer: "EagleDrift Technologies Pvt. Ltd.",
+    period: "November 2025 – February 2026",
+    role: "Senior Test Engineer | SDET",
+    location: "Bangalore, India",
+    project: "CRM Automation Platform for a US Client",
+    industry: "CRM / Enterprise Software",
+
     challenge:
-      'Representative engineering challenge: validating CRM workflows consistently across the UI, API, and database while keeping regression checks dependable as functionality evolves. This is an inferred testing challenge, not a claim about a production failure.',
+      "Maintaining reliable UI, API and database validation for CRM workflows while keeping regression automation scalable and maintainable.",
+
     solution: [
-      'Built a scalable hybrid automation framework.',
-      'Automated more than 150 UI and API test cases.',
-      'Implemented nightly Jenkins regression execution.',
-      'Validated transactional data using SQL.',
+      "Built and maintained a hybrid automation framework using Selenium WebDriver with Java and TestNG.",
+      "Automated UI and API scenarios using Selenium and REST Assured.",
+      "Developed reusable framework components for scalable test execution.",
+      "Automated more than 150 UI and API test cases, as documented in the resume.",
+      "Configured scheduled regression execution through Jenkins.",
+      "Validated transactional data using SQL.",
+      "Performed functional, regression and API testing.",
+      "Used Maven, Git and GitHub for build and source-code management.",
     ],
+
     impact: [
-      '150+ automated UI and API test cases, as documented in the resume.',
-      'Nightly regression execution through Jenkins.',
-      'Reusable automation framework.',
-      'Database-level verification of CRM transactions.',
+      "150+ automated UI and API test cases.",
+      "Reusable automation framework components.",
+      "Scheduled regression execution through Jenkins.",
+      "Database-level verification of CRM transactions.",
+      "Improved maintainability and repeatability of regression execution.",
     ],
+
     businessValue:
-      'Separate UI, API, and data checks can validate CRM behaviors at appropriate layers while nightly execution provides a regular regression signal.',
-    technologies: ['Selenium (Java)', 'TestNG', 'REST Assured', 'Jenkins', 'MySQL'],
-    workflow: [
-      'Choose a CRM UI journey or API behavior for the regression run.',
-      'Run the relevant TestNG test using a page object or API service abstraction.',
-      'Validate the UI outcome or REST Assured response independently.',
-      'For an end-to-end check, compare expected transaction state with SQL-backed records.',
-      'Review nightly execution results and reporting from Jenkins.',
+      "Combining UI, API and SQL validation provides layered coverage for CRM workflows and helps identify issues earlier in the testing lifecycle.",
+
+    technologies: [
+      "Selenium WebDriver",
+      "Java",
+      "TestNG",
+      "REST Assured",
+      "Postman",
+      "Jenkins",
+      "SQL",
+      "Maven",
+      "Git",
+      "GitHub",
     ],
+
+    workflow: [
+      "Identify CRM business workflows requiring automation.",
+      "Create UI automation using Selenium WebDriver and Java.",
+      "Automate API scenarios using REST Assured.",
+      "Organize execution using TestNG.",
+      "Validate transactional data using SQL.",
+      "Execute scheduled regression suites through Jenkins.",
+      "Review failures and collaborate with development teams.",
+    ],
+
     frameworkNote:
-      'Illustrative framework design based on the documented technology stack. This is not a verified view of the employer repository or proprietary architecture.',
+      "Framework architecture is represented using the documented Selenium, Java, TestNG, REST Assured, Jenkins and SQL stack. It does not expose proprietary employer architecture.",
+
     implementationDetails:
-      'UI tests can run through Selenium independently of REST Assured API tests. Where database access and test data permit, SQL assertions can complement an end-to-end workflow; exact connection and reporting implementations are not documented.',
+      "UI and API automation were maintained as reusable components. SQL validation was used for transactional data verification where applicable.",
+
     proposedStructure: [
-      'src/test/java/tests/ui/',
-      'src/test/java/tests/api/',
-      'src/main/java/pages/',
-      'src/main/java/api/',
-      'src/main/java/base/',
-      'src/main/java/utils/',
-      'src/test/resources/testdata/',
-      'src/test/resources/config/',
+      "src/test/java/tests/ui/",
+      "src/test/java/tests/api/",
+      "src/main/java/pages/",
+      "src/main/java/api/",
+      "src/main/java/base/",
+      "src/main/java/utils/",
+      "src/test/resources/testdata/",
+      "src/test/resources/config/",
     ],
+
     frameworkLanes: [
       {
-        title: 'Illustrative execution flow',
+        title: "Test Execution Layer",
         layers: [
-          layer('TestNG test classes', 'Select and organize UI or API test execution.'),
-          layer('Page Object Model / API service classes', 'Separate user-interface interactions from service request behavior.'),
-          layer('Reusable Selenium / REST Assured components', 'Provide shared automation helpers for UI and API checks.'),
-          layer('CRM web application / REST APIs', 'Exercise the documented application and API surfaces.'),
-          layer('Assertions and response validation', 'Verify expected page behavior, response status, and response content.'),
-          layer('MySQL transactional data validation', 'Use SQL checks to verify relevant transaction state.'),
-          layer('TestNG results and reporting', 'Review test outcomes; the specific reporting tool is not specified.'),
-          layer('Jenkins nightly regression pipeline', 'Runs the documented nightly regression suite.'),
+          layer(
+            "TestNG Test Classes",
+            "Organize and execute UI and API automation tests."
+          ),
+          layer(
+            "Maven",
+            "Supports project build and dependency management."
+          ),
+        ],
+      },
+      {
+        title: "UI Automation Layer",
+        layers: [
+          layer(
+            "Selenium WebDriver",
+            "Automates CRM web application workflows."
+          ),
+          layer(
+            "Page Object Model",
+            "Separates page interactions from test logic."
+          ),
+          layer(
+            "Reusable Utilities",
+            "Provides shared automation functionality."
+          ),
+        ],
+      },
+      {
+        title: "API Automation Layer",
+        layers: [
+          layer(
+            "REST Assured",
+            "Automates REST API scenarios."
+          ),
+          layer(
+            "Postman",
+            "Supports API exploration and validation."
+          ),
+          layer(
+            "Response Assertions",
+            "Validates API responses and expected behavior."
+          ),
+        ],
+      },
+      {
+        title: "Data & CI/CD Layer",
+        layers: [
+          layer(
+            "SQL Validation",
+            "Validates relevant CRM transactional data."
+          ),
+          layer(
+            "Jenkins",
+            "Runs scheduled regression automation."
+          ),
+          layer(
+            "Git / GitHub",
+            "Manages automation source code."
+          ),
         ],
       },
     ],
   },
+
   {
-    title: 'HRMS and Analytics',
-    employer: 'Newgen Technomate',
-    period: 'July 2024 – October 2025',
-    role: 'Test Engineer',
-    project: 'HRMS and analytics',
-    industry: 'HRMS / Analytics',
+    title: "HRMS & Analytics Automation",
+    employer: "Newgen Technomate LLP",
+    period: "July 2024 – October 2025",
+    role: "QA Engineer",
+    location: "Pune, India",
+    project: "HRMS & Analytics",
+    industry: "HRMS / Analytics",
+
     challenge:
-      'Representative engineering challenges: dashboard and report accuracy, analytics API behavior, script stability, and service performance under load. These are inferred from the documented testing activities, not confirmed production incidents.',
+      "Validating HRMS dashboards, reporting workflows and analytics microservices while maintaining stable UI/API automation and supporting performance testing.",
+
     solution: [
-      'Automated dashboard and reporting validations.',
-      'Developed API automation for analytics microservices.',
-      'Conducted API performance testing with JMeter.',
-      'Used retry and exception-handling techniques to improve script stability.',
-      'Applied sprint automation to help reduce defect leakage.',
+      "Automated dashboard and reporting validations using UI automation.",
+      "Developed API automation for analytics microservices.",
+      "Performed API performance testing using JMeter.",
+      "Used Selenium and Playwright for UI automation activities.",
+      "Used REST Assured and Postman for API testing.",
+      "Improved script stability using retry and exception-handling approaches.",
+      "Supported functional, regression and integration testing.",
+      "Performed backend validation using SQL.",
     ],
+
     impact: [
-      'Automated dashboard and reporting checks.',
-      'API test coverage for analytics microservices.',
-      'Performance testing of APIs.',
-      'Improved script stability and support for earlier defect detection.',
+      "Automated dashboard and reporting validation.",
+      "API automation coverage for analytics microservices.",
+      "API performance testing using JMeter.",
+      "Improved automation script stability.",
+      "Supported earlier defect detection during sprint and release testing.",
     ],
+
     businessValue:
-      'Complementary UI, API, performance, and SQL checks can help identify inconsistent analytics outputs and service behavior during sprint and release validation.',
-    technologies: ['Selenium', 'Playwright', 'REST Assured', 'JMeter', 'SQL'],
-    workflow: [
-      'Run dashboard and report checks through the UI suite.',
-      'Call analytics services through REST Assured and assert response behavior.',
-      'Run separate JMeter scenarios to measure API performance under configured load.',
-      'Compare available response data with expected results and relevant SQL records.',
-      'Review failures; use retries only for understood transient conditions so they do not mask product defects.',
+      "Combining UI, API, performance and database validation helps verify analytics behavior from multiple testing layers.",
+
+    technologies: [
+      "Selenium",
+      "Playwright",
+      "Java",
+      "REST Assured",
+      "Postman",
+      "JMeter",
+      "SQL",
+      "TestNG",
+      "Jenkins",
+      "Git",
+      "AI chatbot",
+      "LLM application",
+
     ],
+
+    workflow: [
+      "Identify dashboard, reporting and analytics scenarios.",
+      "Automate repeatable UI scenarios using Selenium and Playwright.",
+      "Automate analytics API scenarios using REST Assured.",
+      "Validate API responses and business data.",
+      "Run API performance scenarios using JMeter.",
+      "Perform SQL validation where backend access is available.",
+      "Review failures and execute regression testing.",
+    ],
+
     frameworkNote:
-      'Illustrative framework design based on the documented technology stack. The separate lanes below explain how UI, functional API, and performance checks can complement one another; they are not a verified internal diagram.',
+      "The framework representation reflects the documented UI automation, API automation, performance testing and SQL validation activities.",
+
     implementationDetails:
-      'Functional API tests assert correctness for individual requests; JMeter performance scenarios measure behavior under load. API checks complement UI flows by validating service behavior directly. Any CI integration is a suggested extension and is not claimed as documented.',
+      "Functional API automation and JMeter performance testing served different validation purposes. Retry and exception handling were used to improve automation stability without masking genuine application defects.",
+
     frameworkLanes: [
       {
-        title: 'UI regression lane',
+        title: "UI Automation",
         layers: [
-          layer('Dashboard and report scenarios', 'Cover visible analytics flows and reporting behavior.'),
-          layer('Selenium / Playwright', 'Drives the documented UI automation tools.'),
-          layer('Page objects and reusable UI components', 'Illustrative design for organizing repeatable UI interactions.'),
+          layer(
+            "Dashboard & Reporting Scenarios",
+            "Validate visible HRMS and analytics workflows."
+          ),
+          layer(
+            "Selenium / Playwright",
+            "Automate browser-based UI scenarios."
+          ),
+          layer(
+            "Reusable UI Components",
+            "Support repeatable dashboard and reporting validations."
+          ),
         ],
       },
       {
-        title: 'API functional lane',
+        title: "API Automation",
         layers: [
-          layer('Analytics API scenarios', 'Select service behaviors and expected response values.'),
-          layer('REST Assured', 'Performs the documented API automation.'),
-          layer('Request and response assertions', 'Checks response contracts and analytics results.'),
+          layer(
+            "Analytics API Scenarios",
+            "Define service-level validation scenarios."
+          ),
+          layer(
+            "REST Assured",
+            "Automate REST API requests and validation."
+          ),
+          layer(
+            "Postman",
+            "Support API testing and exploration."
+          ),
         ],
       },
       {
-        title: 'API performance lane',
+        title: "Performance Testing",
         layers: [
-          layer('Load scenarios', 'Defines representative request patterns and configured load.'),
-          layer('JMeter', 'Runs documented API performance testing and records measurements.'),
+          layer(
+            "Load Scenarios",
+            "Define configured API performance scenarios."
+          ),
+          layer(
+            "JMeter",
+            "Execute API performance testing under configured load."
+          ),
         ],
       },
       {
-        title: 'Shared validation',
+        title: "Data & Quality Validation",
         layers: [
-          layer('SQL data checks', 'Compares available database records with expected results where applicable.'),
-          layer('Test data and configuration', 'Illustrative shared inputs for repeatable execution.'),
-          layer('Assertions, diagnostics, and reports', 'Supports investigation; CI integration remains a suggested extension.'),
+          layer(
+            "SQL Validation",
+            "Validate relevant backend data."
+          ),
+          layer(
+            "Regression Testing",
+            "Verify fixes and protect existing functionality."
+          ),
+          layer(
+            "Defect Analysis",
+            "Investigate failures and support defect resolution."
+          ),
         ],
       },
     ],
   },
+
   {
-    title: 'Commodity Trading Exchange Platform',
-    employer: 'Multi Commodity Exchange of India Ltd. (MCX)',
-    period: 'August 2023 – June 2024',
-    role: 'Quality Assurance Executive',
-    project: 'Commodity trading exchange platform',
-    industry: 'Commodity trading / Exchange systems',
+    title: "Commodity Trading Exchange Platform",
+    employer: "Multi Commodity Exchange of India Ltd. (MCX)",
+    period: "August 2023 – June 2024",
+    role: "Senior Executive – MCX Technology",
+    location: "Mumbai, India",
+    project: "Commodity Trading Exchange Platform",
+    industry: "Commodity Trading / Exchange Systems",
+
     challenge:
-      'Representative engineering challenges: trading workflow correctness, transaction integrity, regression coverage, and release verification. No trading incident, loss, outage, or regulatory finding is implied.',
+      "Validating critical trading workflows, financial transactions, regression scenarios and release behavior for an exchange platform.",
+
     solution: [
-      'Automated regression tests for trading workflows.',
-      'Validated financial transactions using SQL.',
-      'Supported sprint planning.',
-      'Conducted release validation and production verification.',
+      "Automated regression scenarios for trading workflows.",
+      "Validated financial transactions using SQL.",
+      "Performed functional and end-to-end testing for critical trading workflows.",
+      "Supported sprint planning and release validation.",
+      "Performed production verification activities.",
+      "Supported defect analysis and resolution with development teams.",
     ],
+
     impact: [
-      'The resume reports zero critical production defects during major releases for this project.',
-      'Regression automation for trading workflows.',
-      'Backend transaction verification using SQL.',
+      "Regression automation for critical trading workflows.",
+      "Backend transaction verification using SQL.",
+      "Supported release validation and production verification.",
+      "Resume documents zero critical production defects during major releases; this should be retained only when verifiable.",
     ],
+
     businessValue:
-      'Repeatable workflow checks and transaction verification contribute to controlled release validation. The zero-critical-defect statement is limited to the scope stated in the resume.',
-    technologies: ['Selenium', 'TestNG', 'REST APIs', 'SQL'],
-    workflow: [
-      'Select an affected trading workflow for regression validation.',
-      'Run UI checks through Selenium and the configured TestNG execution.',
-      'Validate available REST API responses and relevant error handling.',
-      'Check consistency between application behavior and available database records with SQL.',
-      'Record results and supporting evidence for release validation and production verification.',
+      "Repeatable trading workflow validation and transaction-level verification support controlled releases for critical exchange functionality.",
+
+    technologies: [
+      "Selenium",
+      "Playwright",
+      "Java",
+      "REST Assured",
+      "Postman",
+      "JMeter",
+      "SQL",
+      "TestNG",
+      "Jenkins",
+      "Git",
     ],
+
+    workflow: [
+      "Identify critical trading workflows for regression.",
+      "Execute UI automation for applicable trading scenarios.",
+      "Validate API behavior where applicable.",
+      "Verify financial transaction data using SQL.",
+      "Execute functional and end-to-end testing.",
+      "Perform release validation and production verification.",
+      "Support defect analysis and retesting.",
+    ],
+
     frameworkNote:
-      'Illustrative framework design based on the documented technology stack. Suggested validation points below are representative scenarios, not a claim that each specific check was implemented.',
+      "The framework below represents the documented testing responsibilities and technology stack. It does not assume proprietary exchange rules, trading protocols or database architecture.",
+
     implementationDetails:
-      'The examples do not assume particular order types, exchange protocols, financial rules, or database schemas. They describe generic workflow, response, and transaction checks only.',
+      "The project description focuses on generic workflow, API and transaction validation based on the documented resume information.",
+
     frameworkLanes: [
       {
-        title: 'Illustrative execution flow',
+        title: "Trading Workflow Automation",
         layers: [
-          layer('Trading workflow test cases', 'Select documented workflow regression coverage.'),
-          layer('TestNG execution', 'Organizes and runs the regression test classes.'),
-          layer('Selenium page objects and UI helpers', 'Illustrative reusable UI layer for browser-driven checks.'),
-          layer('Trading platform UI and REST API validation', 'Exercises UI flows and documented REST API testing.'),
-          layer('Business rule and response assertions', 'Checks expected behavior without assuming undocumented exchange rules.'),
-          layer('SQL transaction validation', 'Verifies relevant available transaction records.'),
-          layer('Regression results and defect evidence', 'Captures outcomes for review and triage.'),
-          layer('Release validation and production verification', 'Supports the documented release and production checks.'),
+          layer(
+            "Trading Workflow Test Cases",
+            "Cover critical trading business scenarios."
+          ),
+          layer(
+            "TestNG",
+            "Organizes and executes automation tests."
+          ),
+          layer(
+            "Selenium / Playwright",
+            "Automates applicable web-based trading workflows."
+          ),
+        ],
+      },
+      {
+        title: "API & Business Validation",
+        layers: [
+          layer(
+            "REST API Testing",
+            "Validates relevant service behavior."
+          ),
+          layer(
+            "Business Assertions",
+            "Checks expected workflow and transaction behavior."
+          ),
+          layer(
+            "SQL Validation",
+            "Validates relevant financial transaction records."
+          ),
+        ],
+      },
+      {
+        title: "Release Validation",
+        layers: [
+          layer(
+            "Regression Execution",
+            "Validates existing functionality after changes."
+          ),
+          layer(
+            "Release Validation",
+            "Supports pre-release quality verification."
+          ),
+          layer(
+            "Production Verification",
+            "Supports post-release validation activities."
+          ),
         ],
       },
     ],
   },
+
   {
-    title: 'Web Application Quality Engineering',
-    employer: 'Espire Infolabs',
-    period: 'December 2022 – June 2023',
-    role: 'Test Engineer',
-    location: 'Gurugram, Haryana, India',
-    project: 'Web application testing',
-    industry: 'Web applications',
+    title: "Enterprise Web Application",
+    employer: "Espire Infolabs Pvt. Ltd.",
+    period: "December 2022 – June 2023",
+    role: "Test Engineer",
+    location: "Gurgaon, India",
+    project: "Enterprise Web Application",
+    industry: "Enterprise Web Applications",
+
     challenge:
-      'Representative engineering challenge: keeping web application testing repeatable across manual execution, defect tracking, and UI automation. This is an inferred challenge, not a confirmed production issue.',
+      "Executing repeatable functional, regression, integration and UAT testing while supporting UI automation, defect management and release validation.",
+
     solution: [
-      'Performed manual and automated testing of web applications.',
-      'Prepared and executed test cases.',
-      'Logged defects and collaborated within Agile teams.',
-      'Used Selenium WebDriver, Java, and TestNG.',
+      "Executed functional, regression, integration and UAT testing.",
+      "Developed reusable automation utilities.",
+      "Used Selenium WebDriver with Java and TestNG for UI automation.",
+      "Used Postman for API testing activities.",
+      "Used SQL for backend validation.",
+      "Prepared and executed test cases.",
+      "Logged defects and supported retesting and regression cycles.",
+      "Worked with business stakeholders to clarify requirements.",
     ],
+
     impact: [
-      'Contributed to test execution and defect reporting.',
-      'Supported UI automation activities using the documented stack.',
+      "Supported functional and regression test execution.",
+      "Contributed to reusable UI automation utilities.",
+      "Supported defect reporting, retesting and release validation.",
+      "Improved repeatability of selected UI validation activities.",
     ],
+
     businessValue:
-      'Structured test execution and defect records give the team reproducible evidence to triage issues and follow up with regression checks.',
-    technologies: ['Selenium WebDriver', 'Java', 'TestNG'],
-    workflow: [
-      'Prepare and execute manual test cases for a web application change.',
-      'Automate suitable repeatable UI checks with Selenium WebDriver and Java.',
-      'Organize and execute tests with TestNG.',
-      'Record defects with reproducible evidence and follow up during regression.',
+      "Combining manual testing, UI automation, API testing and backend validation provides broader coverage for enterprise web workflows.",
+
+    technologies: [
+      "Selenium WebDriver",
+      "Java",
+      "TestNG",
+      "SQL",
+      "Postman",
+      "Maven",
+      "Git",
     ],
+
+    workflow: [
+      "Review requirements and prepare test cases.",
+      "Execute functional and integration testing.",
+      "Automate suitable repeatable UI scenarios.",
+      "Execute automation using Selenium and TestNG.",
+      "Perform API validation using Postman.",
+      "Validate backend data using SQL where applicable.",
+      "Log defects and perform retesting.",
+      "Execute regression testing before release.",
+    ],
+
     frameworkNote:
-      'Illustrative framework design based on the documented technology stack. Page Object Model, reporting integrations, and additional utilities below are proposed patterns unless confirmed.',
+      "This case study is intentionally focused on documented responsibilities because the resume provides less project-specific architectural detail for this role.",
+
     implementationDetails:
-      'This case study is intentionally concise because the resume provides less detail for this role. No test count, coverage, reporting tool, or project outcome is inferred.',
+      "The documented technology stack includes Selenium WebDriver, Java, TestNG, SQL, Postman, Maven and Git. Specific internal framework architecture is not documented.",
+
     proposedStructure: [
-      'src/test/java/tests/ — proposed TestNG test classes',
-      'src/main/java/pages/ — proposed page objects where applicable',
-      'src/main/java/base/ — proposed WebDriver setup and lifecycle',
-      'src/main/java/utils/ — proposed shared helpers',
-      'src/test/resources/ — proposed test data and configuration',
+      "src/test/java/tests/",
+      "src/main/java/pages/",
+      "src/main/java/base/",
+      "src/main/java/utils/",
+      "src/test/resources/testdata/",
+      "src/test/resources/config/",
     ],
+
     frameworkLanes: [
       {
-        title: 'Illustrative UI test flow',
+        title: "Functional & Manual Testing",
         layers: [
-          layer('TestNG test classes', 'Organize and execute repeatable test cases.'),
-          layer('Selenium WebDriver', 'Drives documented browser-based UI automation.'),
-          layer('Page Object Model (proposed)', 'An optional pattern to separate page interactions from tests.'),
-          layer('Locators and reusable actions (proposed)', 'Illustrative organization for element access and common interactions.'),
-          layer('Web application', 'The application under test; no specific product is identified.'),
-          layer('Assertions and TestNG results', 'Verifies outcomes and reviews test execution results.'),
-          layer('Defect logging and regression follow-up', 'Records reproducible issues and tracks subsequent validation.'),
+          layer(
+            "Requirements",
+            "Understand business requirements and testing scope."
+          ),
+          layer(
+            "Test Cases",
+            "Prepare and execute functional and regression scenarios."
+          ),
+          layer(
+            "Defect Lifecycle",
+            "Log, track, retest and verify defects."
+          ),
+        ],
+      },
+      {
+        title: "UI Automation",
+        layers: [
+          layer(
+            "TestNG",
+            "Organizes automation test execution."
+          ),
+          layer(
+            "Selenium WebDriver",
+            "Automates repeatable browser-based workflows."
+          ),
+          layer(
+            "Reusable Utilities",
+            "Supports maintainable automation execution."
+          ),
+        ],
+      },
+      {
+        title: "API & Database Validation",
+        layers: [
+          layer(
+            "Postman",
+            "Supports API testing and validation."
+          ),
+          layer(
+            "SQL",
+            "Validates relevant backend data."
+          ),
+          layer(
+            "Regression Validation",
+            "Confirms fixes and protects existing functionality."
+          ),
         ],
       },
     ],
   },
+
   {
-    title: 'E-commerce Platform',
-    employer: 'SM Web Solutions Pvt. Ltd.',
-    period: 'October 2020 – December 2022',
-    role: 'Quality Assurance Tester',
-    project: 'E-commerce platform',
-    industry: 'E-commerce / Retail',
+    title: "E-commerce Platform",
+    employer: "SM Web Solutions Pvt. Ltd.",
+    period: "October 2020 – December 2022",
+    role: "QA Tester",
+    location: "New Delhi, India",
+    project: "E-commerce Platform",
+    industry: "E-commerce / Retail",
+
     challenge:
-      'Representative engineering challenges: validating checkout and payment workflows end to end, maintaining regression coverage, and checking consistency between application behavior and backend data. No payment provider or production incident is implied.',
+      "Validating e-commerce workflows end to end, especially checkout and payment functionality, while maintaining functional and regression coverage.",
+
     solution: [
-      'Performed end-to-end functional and regression testing.',
-      'Automated critical checkout and payment workflows.',
-      'Executed API testing using Postman.',
-      'Validated backend data with SQL.',
-      'Improved regression efficiency through automation adoption.',
+      "Performed end-to-end functional and regression testing.",
+      "Automated critical checkout and payment workflows using Selenium WebDriver and Java.",
+      "Executed API testing using Postman.",
+      "Validated backend data using SQL.",
+      "Used TestNG for automation execution.",
+      "Used Maven for project build and dependency management.",
+      "Participated in defect lifecycle management and release-quality validation.",
     ],
+
     impact: [
-      'Automated critical checkout and payment workflows.',
-      'UI and API validation.',
-      'Backend data verification.',
-      'Improved regression efficiency through automation adoption; no unsupported time or percentage is asserted.',
+      "Automated critical checkout and payment workflows.",
+      "Performed UI and API validation.",
+      "Performed backend data verification using SQL.",
+      "Improved regression efficiency through automation adoption.",
     ],
+
     businessValue:
-      'Checking a business journey across the UI, API, and available database records helps verify consistent order and payment state without assuming payment gateway details.',
-    technologies: ['Selenium', 'Postman', 'SQL'],
-    workflow: [
-      'Start with a checkout and payment test scenario.',
-      'Use Selenium to exercise the cart, checkout, payment, and order confirmation flow.',
-      'Run complementary Postman API checks and assert HTTP status and response content.',
-      'Where access permits, use SQL to verify the resulting order or payment state.',
-      'Review functional and regression outcomes; direct database access is not assumed for every test.',
+      "Testing checkout and payment journeys across UI, API and backend data provides layered validation of critical e-commerce workflows.",
+
+    technologies: [
+      "Selenium WebDriver",
+      "Java",
+      "TestNG",
+      "Postman",
+      "API Testing",
+      "SQL",
+      "Maven",
+      "Git",
     ],
+
+    workflow: [
+      "Analyze checkout and payment requirements.",
+      "Create functional and regression test scenarios.",
+      "Automate repeatable checkout workflows using Selenium WebDriver.",
+      "Execute automation using TestNG.",
+      "Perform API testing using Postman.",
+      "Validate order and payment-related backend data using SQL where access is available.",
+      "Log and retest defects.",
+      "Execute regression testing before release.",
+    ],
+
     frameworkNote:
-      'Illustrative framework design based on the documented technology stack. UI, API, and data paths are representative; direct database access and payment implementation details are not specified.',
+      "The framework representation is based on the documented e-commerce testing responsibilities and technology stack. Payment gateway or provider-specific implementation details are not assumed.",
+
     implementationDetails:
-      'Validating across UI, API, and database layers can provide complementary evidence for one business workflow. SQL validation applies only where database access and the test environment permit it.',
+      "The documented work includes UI automation, API testing and SQL backend validation for critical checkout and payment workflows.",
+
     frameworkLanes: [
       {
-        title: 'UI checkout lane',
+        title: "UI Checkout Automation",
         layers: [
-          layer('Checkout and payment scenarios', 'Define representative positive and negative journey coverage.'),
-          layer('Selenium UI automation', 'Drives documented browser-based checkout automation.'),
-          layer('Reusable page objects and UI actions (illustrative)', 'Organizes browser interactions into reusable components.'),
-          layer('Cart → checkout → payment → order confirmation', 'Represents the user-facing journey without naming a payment provider.'),
+          layer(
+            "Checkout Test Scenarios",
+            "Define positive and negative checkout workflows."
+          ),
+          layer(
+            "Selenium WebDriver",
+            "Automates browser-based checkout workflows."
+          ),
+          layer(
+            "TestNG",
+            "Organizes and executes automation tests."
+          ),
         ],
       },
       {
-        title: 'API and data validation lane',
+        title: "API & Backend Validation",
         layers: [
-          layer('Postman API tests', 'Exercises the documented API testing approach.'),
-          layer('HTTP status and response assertions', 'Checks service responses for expected behavior.'),
-          layer('SQL backend validation (where accessible)', 'Verifies relevant available order or payment state.'),
-          layer('Functional and regression results', 'Combines available evidence for release and regression review.'),
+          layer(
+            "Postman API Testing",
+            "Executes and validates API scenarios."
+          ),
+          layer(
+            "API Assertions",
+            "Checks response status and expected response content."
+          ),
+          layer(
+            "SQL Validation",
+            "Validates relevant order and payment data where accessible."
+          ),
+        ],
+      },
+      {
+        title: "Regression & Release",
+        layers: [
+          layer(
+            "Functional Testing",
+            "Validates business functionality."
+          ),
+          layer(
+            "Regression Testing",
+            "Protects existing e-commerce functionality."
+          ),
+          layer(
+            "Defect Lifecycle",
+            "Supports defect reporting, retesting and closure."
+          ),
         ],
       },
     ],
